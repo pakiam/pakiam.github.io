@@ -1,0 +1,167 @@
+@font-face
+  font-family: wxrb
+  src: url(https://use.typekit.net/af/cc2031/00000000000000003b9ad207/27/l?subset_id=1&fvd=n5) format("woff2")
+  font-weight: 500
+  font-style: normal
+
+@font-face
+  font-family: vcsm
+  src: url(https://use.typekit.net/af/edab9a/00000000000000003b9ad1b9/27/l?subset_id=1&fvd=n4) format("woff2")
+  font-weight: 400
+  font-style: normal
+
+@font-face
+  font-family: vcsm
+  src: url(https://use.typekit.net/af/03034e/00000000000000003b9ad1b1/27/l?subset_id=1&fvd=n7) format("woff2")
+  font-weight: 700
+  font-style: normal
+  @font-face
+  font-family: bkmb
+  src: url(https://use.typekit.net/af/d8db28/0000000000000000000151f8/27/l?subset_id=1&fvd=n4) format("woff2")
+  font-weight: 400
+  font-style: normal
+
+@import "variables"
+
+.section
+  background: #eeeeee
+  padding: 10rem 8rem
+  width: 100%
+  @media screen and (max-width: 480px)
+    padding: 2rem 1rem
+  @media screen and (max-width: 1200px)
+    padding: 2rem 1rem
+/**** MENU GOODS ITEM ****/
+.goods-items
+  border: 1px solid #000000
+  max-width: 31%
+  min-width: 31%
+  margin: 1%
+  float: left
+  @media screen and (max-width: 480px)
+    max-width: 98%
+    min-width: 98%
+  @media screen and (max-width: 1200px)
+    max-width: 48%
+    min-width: 48%
+.goods-items_header
+  background: #000
+  padding: .4rem 1rem
+  display: flex
+  flex-flow: row wrap
+
+.goods-items_header_left
+  display: flex
+  flex-flow: column wrap
+  flex: 1 0 50%
+  max-width: 50%
+  justify-content: center
+
+.goods-items_header_right
+  flex: 1 0 50%
+  max-width: 50%
+
+.goods-items_header-title
+  font-family: wxrb
+  font-weight: 500
+  color: $main-color
+  text-transform: uppercase
+  line-height: 3rem
+  font-size: 2.6rem
+
+.goods-items_header-subtitle
+  color: #cd4929
+  text-transform: uppercase
+  font-size: 1.2rem
+  line-height: 1.6rem
+
+.goods-items_header-image
+  display: flex
+  justify-content: flex-end
+
+.goods-item
+  padding: 1rem
+  display: flex
+  flex-flow: row wrap
+  flex: 1 0 50%
+
+.good-item_body
+  flex: 1
+  display: flex
+  flex-flow: column wrap
+
+.goods-items_body--row
+  display: flex
+  flex-flow: row wrap
+
+.goods-item-name
+  text-transform: uppercase
+  font-family: wxrb
+  font-weight: 500
+  font-size: 2rem
+
+.goods-item-description
+  font-size: 1.4rem
+  line-height: 1.8rem
+  font-family: vcsm
+  font-weight: 400
+
+.goods-item-price
+  font-weight: bold
+
+/* CONTACTS */
+.contacts
+  display: flex
+  flex-flow: row wrap
+  padding: 0
+
+.contacts-map
+  flex: 1 0 50%
+  justify-content: flex-end
+  min-height: 160px
+  @media screen and (max-width: 480px)
+    flex: 0 0 100%
+
+/* FORM */
+.contacts-form
+  display: flex
+  flex-flow: column wrap
+  align-items: center
+  justify-content: center
+  flex: 0 0 50%
+  @media screen and (max-width: 480px)
+    flex: 0 0 100%
+    padding-top: 4rem
+
+.main-form
+  width: 60%
+  @media screen and (max-width: 480px)
+    width: 100%
+    padding: 1rem
+.form-input
+  position: relative
+  input
+    margin-top: 1rem
+    width: 100%
+    border: 1px solid #000000
+    background-color: #eeeeee
+    padding: .4rem .6rem
+    &::-webkit-input-placeholder
+      color: #000
+    &::-moz-placeholder
+      color: #000
+    &:-moz-placeholder
+      color: #000
+    &:-ms-input-placeholder
+      color: #000
+
+.btn
+  display: block
+  background-color: #000
+  color: $main-color
+  border-radius: 0
+  padding: .6rem 2rem
+  margin-left: auto
+  margin-top: 2rem
+  &:hover
+    background-color: lighten(#000, 20)
