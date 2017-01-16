@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.str0 {stroke:black;stroke-width:100}
+.fil0 {fill:gray;fill-rule:nonzero}
+.district{
+    stroke: #eee;
+    stroke-width: 100;
+}
+.viborgsky{
+    fill: #d9cbe3;
+}
+.primorsky{
+    fill: #acc8d5;
+}
+.kalininsky{
+    fill: #e49aad;
+}
+.vasilievsky{
+    fill: #85cec6;
+}
+.frunzensky{
+    fill: #dfda77;
+}
+.centralny{
+    fill: #d9a7b7;
+}
+.petrogradsky{
+    fill: #85cec6;
+}
+.admiralteisky{
+    fill: #d9a7b7;
+}
+.krasnogvardeisky{
+    fill: #ffc483;
+}
+.nevsky{
+    fill: #cde682;
+}
+.kirovsky{
+    fill: #00cf57;
+}
+.moskovsky{
+    fill: #ff897d;
+}
+.krasnoselsky{
+    fill: #ffb48f;
+}
